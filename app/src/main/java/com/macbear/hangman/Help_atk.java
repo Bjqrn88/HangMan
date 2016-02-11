@@ -2,6 +2,7 @@ package com.macbear.hangman;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 public class Help_atk extends AppCompatActivity {
 
@@ -9,5 +10,7 @@ public class Help_atk extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_help);
+
+        Log.d("Help", "onCreate Help_atk");
     }
 }

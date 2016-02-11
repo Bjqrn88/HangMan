@@ -9,4 +9,68 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.macbear.hangman.Spil_atk">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/galge"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/imageView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gæt"
+        android:id="@+id/guessButton"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/editText"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ord:"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Det hemming ord"
+        android:id="@+id/ordet"
+        android:layout_below="@+id/textView"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gæt:"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/ordet"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Brugte bogstaver"
+        android:id="@+id/Used"
+        android:layout_below="@+id/textView2"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginLeft="10dp"/>
+
+
 </RelativeLayout>

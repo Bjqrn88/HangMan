@@ -9,8 +9,29 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.macbear.hangman.Mainmenu_atk">
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:src="@drawable/forkert6"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Spil"
+        android:id="@+id/spilButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Hjælp"
+        android:id="@+id/helpButton"
+        android:layout_below="@+id/spilButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
 </RelativeLayout>

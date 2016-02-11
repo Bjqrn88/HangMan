@@ -9,4 +9,20 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.macbear.hangman.Help_atk">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Hvordan spiller man?:"
+        android:id="@+id/HelpTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HangMan, eller Galge leg, er et spil der går ud på at rede en stakkel, fra hængnind, ved at gætte et ord rigtigt. \nMan har må max gætte forkert 6 gange."
+        android:layout_below="@+id/HelpTitle"
+        android:layout_alignParentStart="true"
+        android:textSize="15dp" />
+
 </RelativeLayout>
